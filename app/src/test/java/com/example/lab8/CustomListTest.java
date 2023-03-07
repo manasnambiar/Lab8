@@ -43,7 +43,7 @@ public class CustomListTest {
         list = MockCityList();
         City city1 = new City("Toronto", "Canada");
         City city2 = new City("New York", "USA");
-        list.add(city1);
+        list.addCity(city1);
         assertTrue(list.hasCity(city1));
         assertFalse(list.hasCity(city2));
     }
